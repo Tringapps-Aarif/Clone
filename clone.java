@@ -24,14 +24,7 @@ class point implements Cloneable {
         boolean result = ((x1 == x) && (y1 == y)) ? true : false;
         return result;
     }
-
-    void show()
-    {
-        System.out.println("X = " +);
-    }
-
 }
-
 class clone {
     public static void main(String args[]) throws CloneNotSupportedException {
         Scanner sc = new Scanner(System.in);
