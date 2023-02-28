@@ -25,27 +25,29 @@ class point implements Cloneable {
         return result;
     }
 }
-class clone {
+class cloneExp {
     public static void main(String args[]) throws CloneNotSupportedException {
         Scanner sc = new Scanner(System.in);
-        System.out.printf(" Enter 1st Points : \n");
-        System.out.printf("\n Enter X  : ");
+        System.out.println(" Enter 1st Points : \n");
+        System.out.println("\n Enter X  : ");
         int x = sc.nextInt();
-        System.out.printf("Enter Y : ");
+        System.out.println("Enter Y : ");
         int y = sc.nextInt();
 
         point ob = new point(x, y);
         point ob1 = (point) ob.clone();
 
-        System.out.printf("\nEnter 2nd points: \n");
-        System.out.printf("\nEnter X : ");
+        System.out.println("\nEnter 2nd points: \n");
+        System.out.println("\nEnter X : ");
         int A = sc.nextInt();
-        System.out.printf(" Enter Y : ");
+        System.out.println(" Enter Y : ");
         int B = sc.nextInt();
 
         boolean ans = ob1.equals(A, B);
 
-        System.out.printf(" the both points are " + ans);
+        System.out.println(" the both points are " + ans);
+        
+        
 
     }
 }
