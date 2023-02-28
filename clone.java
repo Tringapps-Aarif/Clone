@@ -45,7 +45,7 @@ class cloneExp {
 
         boolean ans = ob1.equals(A, B);
 
-        System.out.println(" the both points are " + ans);
+        System.out.println(" the both points are " + (ans ? "same" : "not same"));
         
         
 
